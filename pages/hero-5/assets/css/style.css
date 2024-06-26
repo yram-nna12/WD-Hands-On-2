@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0.3rem 15rem;
+  align-items: center;
+  background: rgb(0, 0, 0);
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header .active-content {
+  color: rgb(232, 0, 0);
+  font-weight: 500;
+  font-size: 0.7rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.header .navigation-content {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 0.7rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.header .button {
+  border: 1px rgb(0, 0, 0) solid;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.header .navigation-content:hover {
+  color: rgb(232, 0, 0);
+}
+
+.header .button:hover {
+  color: #ffffff;
+  background-color: #3f5eec;
+  border: none;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    gap: 0.2rem;
+    height: 100vh;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  
+    & .title {
+      font-size: 4rem;
+      letter-spacing: 0.5rem;
+      padding-left: 1.2rem;
+      text-shadow: 50%;
+      
+    }
+}
+
+.floating-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-family: 'Press Start 2P', sans-serif;
+
+}
+
+.right .about,
+.right .skills {
+    font-family: 'Press Start 2P', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    color: rgb(241, 236, 236);
+}
+
+
+.right {
+    right: 50px;
+    margin-top: 4rem;
+    letter-spacing: 0.2rem;
+    font-size: 13px;
+    width: 40%;
+}

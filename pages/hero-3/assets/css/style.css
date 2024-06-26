@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+  }
+
+  .left-content {
+    position: fixed;
+    margin-top: 0.1rem;
+    left: 0;
+    width: 41%;
+    height: 100%;
+    padding: 5rem;
+    color: #fff;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1rem;
+}
+
+.left-content .about
+ {
+    font-family: 'Press Start 2P', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+    color: black;
+}
+
+.left-content .skills{
+  font-family: 'Press Start 2P', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.3rem 15rem;
+    align-items: center;
+    background: rgb(0, 0, 0);
+  }
+  
+  .header .navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .header .active-content {
+    color: rgb(232, 0, 0);
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Press Start 2P', sans-serif
+
+  }
+
+  .header .navigation-content {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Press Start 2P', sans-serif;
+  }
+  
+  .header .button {
+    border: 1px rgb(0, 0, 0) solid;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .header .navigation-content:hover {
+    color: rgb(232, 0, 0);
+  }
+  
+  .header .button:hover {
+    color: #ffffff;
+    background-color: #3f5eec;
+    border: none;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    gap: 0.2rem;
+    height: 100vh;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    color: #000000;
+  
+    & .title {
+      font-size: 3.5rem;
+      letter-spacing: 0.5rem;
+      padding-left: 20rem;
+      text-shadow: 50%;
+      width: 40%;
+    }
+}

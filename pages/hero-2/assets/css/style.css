@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.3rem 15rem;
+    align-items: center;
+    background: rgb(0, 0, 0);
+  }
+  
+  .header .navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .header .active-content {
+    color: rgb(232, 0, 0);
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Press Start 2P', sans-serif
+
+  }
+
+  .header .navigation-content {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Press Start 2P', sans-serif;
+  }
+  
+  .header .button {
+    border: 1px rgb(0, 0, 0) solid;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .header .navigation-content:hover {
+    color: rgb(232, 0, 0);
+  }
+  
+  .header .button:hover {
+    color: #ffffff;
+    background-color: #3f5eec;
+    border: none;
+  }
+
+  .floating-box {
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    width: 600px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Press Start 2P', sans-serif;
+
+    & .maintitle {
+        color: #90AFB9;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+    }
+}
+
+.right {
+    right: 70px;
+    margin-top: 9rem;
+    letter-spacing: 0.1rem;
+    font-size: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 11rem;
+    align-items: center;
+    gap: 0.2rem;
+    height: 100vh;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: right;
+    justify-content: right;
+    color: rgb(0, 0, 0);
+    padding-left: 50rem;
+    
+    & .title {
+      font-size: 6rem;
+      letter-spacing: 0.5rem;
+      padding-left: 1.2rem;
+    }
+}
