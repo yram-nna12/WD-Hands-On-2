@@ -1,0 +1,222 @@
+.calling-card3 {
+  display: flex;
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 10px auto; 
+  padding-left: 10px;
+}
+
+.calling-card3 .name3 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+.calling-card3 .contact3 {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.profile3 {
+  border-radius: none;
+  width: 120px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.card-container {
+  margin-top: 3rem;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calling-card3-animated {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: -500px;
+}
+
+.calling-card3-animated .card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.calling-card3-animated .card-front {
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  padding-left: 10px;
+}
+
+.calling-card3-animated .card-back {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateX(180deg);
+}
+
+.card-container:hover .calling-card3-animated {
+  transform: rotateX(180deg);
+}
+
+.profile3 {
+  border-radius: 3px;
+  width: 120px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.name3 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+.other3 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #555;
+  
+  & .calling-card3 {
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    padding-left: 10px;
+  }
+  
+  .calling-card3 .name3 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+  }
+  
+  .calling-card3 .contact3 {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  
+  .profile3 {
+    border-radius: none;
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .card-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .calling-card3-animated {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 5px; 
+  }
+  
+  .calling-card3-animated .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  .calling-card3-animated .card-front {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  .calling-card3-animated .card-back {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(180deg);
+  }
+  
+  .card-container:hover .calling-card3-animated {
+    transform: rotateX(180deg);
+  }
+  
+  .profile3 {
+    border-radius: 3px;
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .name3 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+  }
+  
+  .other3 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #555;
+  }
+  
+  .contact3 {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  
+  .back-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+}
+
+.contact3 {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.back-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
